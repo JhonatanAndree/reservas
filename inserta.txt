@@ -1,0 +1,7 @@
+insert into RESERVA(ID,IDCLIENTE,IDSALIDA,IDLLEGADA,FECHA,HORA) values((select MAX(ID)+1 from RESERVA ),'72799806',1,3,'2019-12-19','10:18')
+
+
+
+
+Insertar en cliente:
+insert into CLIENTE(DNI,NOMBRE) VALUES ('$dni','$nombre')
